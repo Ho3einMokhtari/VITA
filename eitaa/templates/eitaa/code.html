@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>code</title>
+</head>
+<body>
+  <form action = "/code/" method = "post">
+	{% csrf_token %}
+	{{form }}
+
+     <button type="submit">submit</button>
+</form>
+<h1>{{message}}</h1>
+<a href="/home/" style="border: blue solid 15px;">HomePage</a>
+</body>
+</html>
